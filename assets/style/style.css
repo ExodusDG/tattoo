@@ -833,7 +833,7 @@ button {
 /*CONTACTS*/
 
 .contacts {
-    background: url(/assets/img/contacts-bg.webp);
+    background: url(assets/img/contacts-bg.webp);
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
