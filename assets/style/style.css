@@ -1,0 +1,2705 @@
+/*FONTS*/
+
+
+/*font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h1 {
+    color: #FF5C35;
+}
+
+button {
+    border: none;
+    background: #FF5C35;
+}
+
+
+/*HEADER*/
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-hamburger {
+    display: none;
+}
+
+.navbar {
+    background: #0A0A0A;
+    width: 1920px;
+    height: 75px;
+    width: 100vw;
+}
+
+.navbar__logotype {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    color: #FF5C35;
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    margin-left: 220px;
+    margin-right: 220px;
+    position: relative;
+    bottom: 10px;
+}
+
+.navbar__logotype {
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+
+.navbar__link {
+    color: #54687e;
+    margin-right: 40px;
+    bottom: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.navbar__link:hover {
+    color: #FF5C35;
+}
+
+.navbar__links {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 450px;
+    padding-top: 30px;
+}
+
+.navbar__button {
+    width: 135px;
+    height: 40px;
+    transition: all 0.3s ease;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    bottom: 8px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.navbar__button:hover {
+    border: 1px solid black;
+    background: white;
+    color: black;
+}
+
+.header__body {
+    background: #EBF7F7;
+}
+
+.header__body-img {
+    position: relative;
+    height: 90vh;
+    margin-top: 22px
+}
+
+.header__body {
+    position: relative;
+    padding-left: 43vw;
+}
+
+.header__bg-img {
+    position: absolute;
+    right: 30vw;
+    top: 15vw;
+    opacity: 0.9;
+}
+
+.header__body-name {
+    color: white;
+    font-size: 180px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    right: 34vw;
+    top: 17vw;
+    font-weight: 700;
+    text-shadow: rgb(133, 185, 185) 0px 0px 40px;
+}
+
+.header__body-city {
+    color: white;
+    font-size: 80px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    right: 42vw;
+    opacity: 0;
+    font-weight: 600;
+    top: 30vw;
+    text-shadow: rgb(133, 185, 185) 0px 0px 40px;
+}
+
+
+/*TATOO SLIDER*/
+
+.tatoo__slider {
+    padding-top: 5vw;
+    padding-bottom: 60vw;
+    height: auto;
+    background: #FAFCF9;
+    max-height: 1100px;
+    text-align: center;
+}
+
+.tatoo__slider h1 {
+    color: #FF5C35;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.tatoo__slider p {
+    font-size: 20px;
+    color: #314C63;
+    width: 490px;
+    position: relative;
+    margin-left: 37vw;
+}
+
+
+/*SLIDER*/
+
+#slider1-bg {
+    display: none;
+    z-index: 1;
+    width: 35%;
+    top: 4vw;
+}
+
+#slider2-bg {
+    display: none;
+    z-index: 1;
+}
+
+#slider3-bg {
+    display: none;
+    z-index: 1;
+    top: 3vw;
+}
+
+#slider1 {
+    display: none;
+    z-index: 2;
+}
+
+#slider2 {
+    display: none;
+    z-index: 3;
+}
+
+#slider3 {
+    display: none;
+    z-index: 4;
+}
+
+.slider__img {
+    position: absolute;
+    left: 0.5vw;
+    margin-top: 8.5vw;
+    z-index: 2;
+    width: 397px;
+}
+
+.slider-image {
+    position: absolute;
+    width: 387px;
+    left: 39.5vw;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slider__bg {
+    right: 28vw;
+    position: relative;
+    z-index: 1;
+    width: 800px;
+    left: 0vw;
+    top: 0vw;
+}
+
+.slider-button {
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    background: white;
+    text-align: center;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.s-left {
+    position: relative;
+    z-index: 999;
+}
+
+.slider-button i {
+    font-size: 1.3vw;
+    padding-top: 0.8vw;
+}
+
+.s-right {
+    position: relative;
+    z-index: 999;
+}
+
+.slider-control {
+    display: flex;
+    position: relative;
+    top: 25vw;
+    left: 38.5vw;
+}
+
+.slider-control div {
+    margin-right: 320px;
+}
+
+.slider-button:hover {
+    transition: 0.3s;
+    background: #FF5C35;
+    color: white;
+}
+
+.sliderOut {
+    animation-duration: 1.5s;
+    animation-name: sliderOut;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.sliderIn {
+    animation-duration: 1.5s;
+    animation-name: sliderIn;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.imageOut {
+    animation-duration: 1.5s;
+    animation-name: imageOut;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.imageIn {
+    animation-duration: 1.5s;
+    animation-name: imageIn;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.header-body-loading {
+    animation-duration: 1.5s;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-name: header-body-loading;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.header-img-loading {
+    animation-duration: 1.5s;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-name: header-body-loading;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.header-name-loading {
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-name: header-body-loading;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.header-city-loading {
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-name: header-city-loading;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header-city-loading {
+    0% {
+        top: 30vw;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        top: 27vw;
+        opacity: 1;
+    }
+}
+
+@keyframes header-body-loading {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sliderOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sliderIn {
+    0% {
+        opacity: 0;
+        display: block;
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes imageOut {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes imageIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+/*ABOUT WORK*/
+
+.about {
+    background: #FAFCF9;
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.about h1 {
+    color: #FF5C35;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.about-tattoo {
+    display: flex;
+    margin-top: 4vw;
+    position: relative;
+    margin-left: 8vw;
+}
+
+.about-tattoo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.about-tattoo-body {
+    text-align: left;
+    margin-left: 4vw;
+    padding-top: 4vw;
+}
+
+.about-tattoo-body p {
+    width: 29vw;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+    color: #314C63;
+}
+
+.about-tattoo-body button {
+    padding: 0.7vw 2vw 0.7vw 2vw;
+    margin-top: 2vw;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.about-tattoo-body button:hover {
+    border: 1px solid #0A0A0A;
+    background: transparent;
+    color: #0A0A0A;
+}
+
+.about-makeup {
+    display: flex;
+    padding-left: 3.5vw;
+    padding-top: 5vw;
+}
+
+.about-makeup h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.about-makeup-body p {
+    width: 29vw;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+    color: #314C63;
+}
+
+.about-makeup-body button {
+    padding: 0.7vw 2vw 0.7vw 2vw;
+    margin-top: 2vw;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.about-makeup-body button:hover {
+    border: 1px solid #0A0A0A;
+    background: transparent;
+    color: #0A0A0A;
+}
+
+.about-makeup-body {
+    text-align: left;
+    margin-left: 4vw;
+    padding-top: 4vw;
+    margin-right: 13vw;
+}
+
+.about-makeup img {
+    position: relative;
+}
+
+.about-tattoo-img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.about-tatoo-filer:hover .about-tattoo-img {
+    filter: brightness(40%);
+    transition: 0.3s;
+}
+
+.about-img-hover {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 13vw;
+    left: 18vw;
+    display: none;
+}
+
+.about-img-hover p {
+    margin-top: 15px
+}
+
+.about-tatoo-filer:hover .about-img-hover {
+    display: inline;
+    animation-duration: 0.6s;
+    animation-name: aboutImgIn;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aboutImgIn {
+    0% {
+        top: 13vw;
+    }
+    50% {
+        top: 9vw;
+        ;
+    }
+    100% {
+        top: 10vw;
+    }
+}
+
+.about-makeup-img {
+    transition: 0.3s;
+}
+
+.makeup-img-hover {
+    position: absolute;
+    margin-left: 17.5vw;
+    margin-top: -11vw;
+    display: none;
+}
+
+.makeup-img-hover p {
+    position: relative;
+    left: 0vw;
+    margin-top: 15px;
+    color: white;
+}
+
+.about-makeup-filer {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.about-makeup-filer:hover .about-makeup-img {
+    filter: brightness(40%);
+}
+
+.about-makeup-filer:hover .makeup-img-hover {
+    animation-duration: 0.6s;
+    display: block;
+    animation-name: makeImgIn;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes makeImgIn {
+    0% {
+        margin-top: -11vw;
+    }
+    50% {
+        margin-top: -15vw;
+        ;
+    }
+    100% {
+        margin-top: -14vw;
+    }
+}
+
+
+/*MAIN ABOUT ME*/
+
+.main-about {
+    height: auto;
+    text-align: center;
+    margin-bottom: 5vw;
+    background: #FAFCF9;
+}
+
+.main-about h1 {
+    color: #FF5C35;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.main-about-body {
+    background: #FF5C35;
+    margin-top: 4vw;
+    display: flex;
+    height: 30vw;
+}
+
+.main-about-content {
+    color: white;
+}
+
+.main-about-body img {
+    height: 30vw;
+}
+
+.main-about-content {
+    margin-left: 150px;
+    text-align: left;
+    margin-top: 190px
+}
+
+.main-about-text {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.main-about-text span {
+    font-weight: 700;
+}
+
+.about-content-buttons button {
+    background: transparent;
+    padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+    margin-right: 2vw;
+    color: white;
+    border: 2px solid white;
+    font-size: 1vw;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.about-content-buttons button:hover {
+    background: white;
+    border: 2px solid transparent;
+    color: black;
+}
+
+
+/*SERVICES*/
+
+.main-services {
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.main-services h1 {
+    color: #FF5C35;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 5vw;
+}
+
+.main-services-buttons button {
+    background: #FF5C35;
+    padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+    margin-right: 2vw;
+    color: white;
+    border: 2px solid transparent;
+    font-size: 1vw;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.main-services-buttons {
+    margin-left: 8vw;
+}
+
+.main-services-buttons button:hover {
+    background: white;
+    border: 2px solid #FF5C35;
+    color: black;
+}
+
+.main-services-tattoo {
+    margin-left: 8vw;
+    margin-top: 5vw;
+    display: flex;
+}
+
+.services-text {
+    text-align: left;
+    margin-top: 115px;
+    margin-left: 105px;
+}
+
+.services-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: #0A0A0A;
+    font-weight: 700;
+}
+
+.services-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #314C63;
+    font-weight: 300;
+    line-height: 25px;
+    width: 630px;
+    margin-top: 1vw;
+}
+
+.services-text button {
+    background: transparent;
+    margin-top: 2vw;
+    position: absolute;
+    padding: 0.5vw 2.5vw 0.6vw 2.5vw;
+    margin-right: 2vw;
+    background: #FF5C35;
+    border: 2px solid transparent;
+    font-size: 1vw;
+    color: white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.services-text button:hover {
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.main-services-viewport {
+    display: flex;
+    position: relative;
+}
+
+.main-services-makeup {
+    display: flex;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+
+.services-buttons-active {
+    background: white !important;
+    border: 2px solid #FF5C35 !important;
+    color: black !important;
+}
+
+.services-viewport-left {
+    animation-duration: 1s;
+    animation-name: services-viewport-left;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.services-viewport-right {
+    animation-duration: 1s;
+    animation-name: services-viewport-right;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes services-viewport-left {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-95%);
+    }
+}
+
+@keyframes services-viewport-right {
+    0% {
+        transform: translate(-95%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+}
+
+
+/*CONTACTS*/
+
+.contacts {
+    background: url(/assets/img/contacts-bg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.contacts iframe {
+    position: relative;
+    margin-top: 9vw;
+    margin-left: 5vw;
+}
+
+.contacts-text {
+    position: relative;
+    width: 29vw;
+    color: white;
+    font-size: 16px;
+}
+
+.contacts-body {
+    color: white;
+    margin-top: 9vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-left: 6vw;
+}
+
+.contacts-body_title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    top: 20px;
+    position: relative;
+    color: #FF5C35;
+}
+
+.contacts-body_master {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    position: relative;
+    bottom: 10px;
+    color: #FF5C35;
+}
+
+.contacts-body_master span {
+    color: white;
+}
+
+.contacts-body p {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+
+.contact-link {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 160px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact-link i {
+    font-size: 35px;
+    margin-right: 10px;
+    top: 4px;
+    position: relative;
+}
+
+.contact-link:hover {
+    color: #FF5C35;
+}
+
+.contacts-body_time {
+    color: #FF5C35;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.contacts-body_time span {
+    color: wheat;
+    font-weight: 400;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    height: auto;
+    background: #0A0A0A;
+    position: relative;
+}
+
+.footer-line {
+    background: #FF5C35;
+    height: 2px;
+}
+
+.footer-body {
+    padding: 2vw 10vw 2vw 10vw;
+    display: flex;
+}
+
+.footer-nav-title {
+    color: #FF5C35;
+    font-size: 55px;
+    font-family: 'Caveat', cursive;
+}
+
+.footer-nav-links {
+    display: block;
+}
+
+.footer-nav-link a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.footer-nav-link a:hover {
+    color: #FF5C35;
+}
+
+.footer-info {
+    color: white;
+    margin-top: 2vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.footer-info a {
+    color: #FF5C35 !important;
+}
+
+.footer-nav-link {
+    transition: 0.2s;
+    position: relative;
+    width: 250px;
+    left: 0px;
+}
+
+.footer-nav-link:hover {
+    left: 10px;
+}
+
+.footer-contacts {
+    margin-left: 45vw;
+    color: white;
+}
+
+.footer-cont-title {
+    color: #FF5C35;
+    font-size: 55px;
+    font-family: 'Caveat', cursive;
+}
+
+.footer-cont-links a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.footer-cont-master {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.footer-cont-master span {
+    color: #FF5C35;
+}
+
+.footer-cont-adress,
+.footer-cont-number {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.footer-cont-links a {
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+.footer-cont-links a:hover {
+    color: #FF5C35;
+}
+
+
+/*ADAPTIVE*/
+
+@media (max-width: 1800px) {
+    .footer-info {
+        width: 400px;
+    }
+    .services-text button {
+        padding: 0.5vw 0.5vw 0.6vw 0.5vw;
+        width: 200px;
+    }
+    @keyframes services-viewport-left {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translate(-100%);
+        }
+    }
+    @keyframes services-viewport-right {
+        0% {
+            transform: translate(-100%);
+        }
+        100% {
+            transform: translate(0%);
+        }
+    }
+    .navbar ul {
+        margin-left: 130px;
+        margin-right: 120px;
+    }
+    .about h1 {
+        z-index: 999;
+        position: relative;
+    }
+    .main-services-makeup img {
+        width: 45vw;
+    }
+    .main-services-tattoo img {
+        width: 45vw;
+    }
+    @keyframes header-city-loading {
+        0% {
+            top: 32vw;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            top: 29vw;
+            opacity: 1;
+        }
+    }
+    .header__bg-img {
+        width: 38vw;
+    }
+    .about-tattoo-img {
+        width: 41vw;
+    }
+    .about-makeup-img {
+        width: 41vw;
+    }
+    .about-img-hover {
+        left: 17vw;
+    }
+    .makeup-img-hover {
+        margin-left: 17vw;
+    }
+    .about {
+        z-index: 999;
+        padding-top: 5vw;
+        position: relative;
+    }
+}
+
+@media (max-width: 1600px) {
+    .footer-contacts {
+        margin-left: 40vw;
+    }
+}
+
+@media (max-width: 1440px) {
+    .footer-contacts {
+        margin-left: 40vw;
+    }
+    .navbar ul {
+        margin-left: 0px;
+        margin-right: 70px;
+    }
+    .header__bg-img {
+        width: 38vw;
+        top: 22vw;
+        left: 34vw;
+    }
+    .header__body-name {
+        font-size: 130px;
+        right: 34vw;
+        top: 25vw;
+    }
+    .header__body-city {
+        font-size: 70px;
+        right: 40vw;
+        top: 36vw;
+    }
+    @keyframes header-city-loading {
+        0% {
+            top: 39vw;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            top: 36vw;
+            opacity: 1;
+        }
+    }
+    .slider-image {
+        left: 36.5vw;
+    }
+    .slider-control {
+        left: 35vw;
+        top: 30vw;
+    }
+    .slider-button i {
+        font-size: 1.3vw;
+        padding-top: 1.2vw;
+    }
+    .about-tattoo-body p {
+        width: 35vw;
+        margin-top: 5px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .about-tattoo-body {
+        padding-top: 3vw;
+    }
+    .about-makeup-body p {
+        width: 30vw;
+        margin-top: 5px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .main-about-content {
+        margin-top: 90px;
+    }
+    .main-about-text {
+        font-size: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+    .services-text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 550px;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 75px;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+    .contacts iframe {
+        margin-top: 13vw;
+        margin-left: 5vw;
+        width: 600px;
+        height: 500px;
+    }
+    .contacts-body_title {
+        font-size: 40px;
+    }
+    .contacts-body_master {
+        font-size: 35px;
+        position: relative;
+        top: 10px;
+        color: #FF5C35;
+    }
+    .contacts-text {
+        position: relative;
+        width: 29vw;
+        color: white;
+        font-size: 14px;
+        top: 10px;
+    }
+    .contacts-adress {
+        position: relative;
+        font-size: 14px;
+        top: 10px;
+    }
+    .contact-link {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .contact-link i {
+        font-size: 30px;
+        top: 5px;
+    }
+    .contacts-body_time {
+        font-size: 20px;
+    }
+    .contacts-body {
+        margin-top: 13vw;
+    }
+    .footer-cont-title {
+        font-size: 45px;
+    }
+    .footer-cont-master {
+        font-size: 25px;
+        width: 190px;
+    }
+    .footer-cont-adress,
+    .footer-cont-number {
+        font-size: 14px;
+        width: 160px;
+    }
+    .footer-cont-links {
+        width: 200px;
+    }
+    .footer-cont-links a>i {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .about-img-hover {
+        left: 16vw;
+    }
+    .navbar {
+        height: 65px;
+    }
+    .navbar__logotype {
+        font-size: 35px;
+    }
+    .navbar__link {
+        font-size: 12px;
+    }
+    .navbar__links {
+        font-size: 14px;
+        padding-left: 350px;
+        padding-top: 25px;
+    }
+    .navbar__button {
+        width: 105px;
+        font-size: 14px;
+        bottom: 10px;
+    }
+    .tatoo__slider h1 {
+        font-size: 50px;
+    }
+    .tatoo__slider p {
+        font-size: 16px;
+        color: #314C63;
+        width: 490px;
+        margin-left: 31vw;
+    }
+    .tatoo__slider {
+        max-height: 700px;
+    }
+    .slider__img {
+        width: 20vw;
+    }
+    .slider-image {
+        position: absolute;
+        width: 20vw;
+        left: 40.2vw;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider-control div {
+        margin-right: 16.2vw;
+    }
+    .slider-control {
+        left: 38.7vw;
+        top: 25vw;
+    }
+    .slider-button {
+        width: 46px;
+        height: 46px;
+    }
+    .slider-button i {
+        font-size: 1.3vw;
+        padding-top: 1vw;
+    }
+    .slider__bg {
+        width: 40vw;
+        position: relative;
+        left: 0vw;
+    }
+    .about h1 {
+        font-size: 50px;
+    }
+    .about-tattoo h2 {
+        font-size: 32px;
+    }
+    .about-tattoo-body p {
+        width: 35vw;
+        margin-top: 5px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .about-tattoo-body button {
+        margin-top: 1vw;
+    }
+    .about-img-hover {
+        left: 15vw;
+    }
+    .about-img-hover img {
+        width: 4vw;
+    }
+    .makeup-img-hover {
+        margin-left: 15vw;
+    }
+    .makeup-img-hover img {
+        width: 4vw;
+    }
+    .main-about h1 {
+        font-size: 50px;
+    }
+    .main-services h1 {
+        font-size: 50px;
+    }
+    .main-services-tattoo img {
+        width: 40vw;
+        height: 25vw;
+    }
+    .services-text p {
+        font-size: 12px;
+    }
+    .services-text button {
+        width: 150px;
+    }
+    .services-text button {
+        margin-top: 1vw;
+    }
+    .main-services-makeup img {
+        width: 40vw;
+        height: 25vw;
+    }
+    .services-text h2 {
+        font-size: 32px;
+    }
+    .footer-contacts {
+        margin-left: 30vw;
+        margin-top: 1vw;
+    }
+}
+
+@media (max-width: 1240px) {
+    .navbar {
+        height: 65px;
+    }
+    .navbar__logotype {
+        font-size: 35px;
+    }
+    .navbar__link {
+        font-size: 12px;
+    }
+    .navbar__links {
+        font-size: 14px;
+        padding-left: 350px;
+        padding-top: 25px;
+    }
+    .navbar__button {
+        width: 105px;
+        font-size: 14px;
+        bottom: 10px;
+    }
+    .tatoo__slider h1 {
+        font-size: 50px;
+    }
+    .tatoo__slider p {
+        font-size: 16px;
+        color: #314C63;
+        width: 490px;
+        margin-left: 31vw;
+    }
+    .tatoo__slider {
+        max-height: 700px;
+    }
+    .slider__img {
+        width: 20vw;
+    }
+    .slider-image {
+        position: absolute;
+        width: 20vw;
+        left: 40.2vw;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider-control div {
+        margin-right: 16vw;
+    }
+    .slider-control {
+        left: 38.7vw;
+        top: 25vw;
+    }
+    .slider-button {
+        width: 46px;
+        height: 46px;
+    }
+    .slider-button i {
+        font-size: 1.3vw;
+        padding-top: 1.2vw;
+    }
+    .slider__bg {
+        width: 40vw;
+        position: relative;
+        left: 0vw;
+    }
+    .about h1 {
+        font-size: 50px;
+    }
+    .about-tattoo h2 {
+        font-size: 32px;
+    }
+    .about-tattoo-body p {
+        width: 35vw;
+        margin-top: 5px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .about-tattoo-body button {
+        margin-top: 1vw;
+    }
+    .about-img-hover {
+        left: 15vw;
+    }
+    .about-img-hover img {
+        width: 4vw;
+    }
+    .makeup-img-hover {
+        margin-left: 15vw;
+    }
+    .makeup-img-hover img {
+        width: 4vw;
+    }
+    .main-about h1 {
+        font-size: 50px;
+    }
+    .main-services h1 {
+        font-size: 50px;
+    }
+    .main-services-tattoo img {
+        width: 40vw;
+        height: 25vw;
+    }
+    .services-text p {
+        font-size: 12px;
+    }
+    .services-text button {
+        width: 150px;
+    }
+    .services-text button {
+        margin-top: 1vw;
+    }
+    .main-services-makeup img {
+        width: 40vw;
+        height: 25vw;
+    }
+    .services-text h2 {
+        font-size: 32px;
+    }
+    .footer-contacts {
+        margin-left: 30vw;
+        margin-top: 1vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar__links {
+        padding-left: 150px;
+    }
+    .header__bg-img {
+        width: 50vw;
+        top: 23vw;
+        left: 27vw;
+    }
+    .navbar ul {
+        margin-left: 0px;
+        margin-right: 0px;
+        position: relative;
+        right: 5vw;
+    }
+    .header__body-img {
+        right: 5vw;
+    }
+    .header__body-name {
+        font-size: 110px;
+        right: 34vw;
+        top: 29vw;
+    }
+    .header__body-city {
+        font-size: 60px;
+        right: 40vw;
+        top: 39vw;
+    }
+    .header__bg-img {
+        width: 55vw;
+        top: 25vw;
+        left: 25vw;
+    }
+    .contacts {
+        height: 90vh;
+    }
+    @keyframes header-city-loading {
+        0% {
+            top: 45vw;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            top: 42vw;
+            opacity: 1;
+        }
+    }
+    .slider-control div {
+        margin-right: 15.5vw;
+    }
+    .slider-button {
+        width: 40px;
+        height: 40px;
+    }
+    .about-tattoo-body p {
+        width: 45vw;
+    }
+    .about-tattoo h2 {
+        font-size: 26px;
+    }
+    .about-makeup h2 {
+        font-size: 26px;
+    }
+    .main-about-text {
+        font-size: 30px;
+    }
+    .main-about-content {
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+    .main-services-tattoo img {
+        width: 45vw;
+        height: 30vw;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 400px;
+    }
+    .main-services-makeup img {
+        width: 45vw;
+        height: 30vw;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+    .contacts iframe {
+        margin-top: 18vw;
+        margin-left: 5vw;
+        width: 500px;
+        height: 400px;
+    }
+    .footer-contacts {
+        margin-left: 24vw;
+        margin-top: 1vw;
+    }
+    .footer-cont-links a>i {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        margin-left: 0px;
+        margin-right: 0px;
+        position: relative;
+        right: 12vw;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .navbar {
+        height: 75px;
+    }
+    .navbar__logotype {
+        font-size: 40px;
+        top: 0px;
+    }
+    .navbar__links {
+        display: none;
+    }
+    .mobile-hamburger {
+        position: relative;
+        left: 79vw;
+        top: 0.9vw;
+    }
+    .mobile-menu {
+        background: #0A0A0A;
+        height: 0px;
+        margin-top: -16px;
+        transition: 0.4s;
+    }
+    .mb-active {
+        height: 330px;
+    }
+    .mobile-menu li {
+        margin-top: 2vw;
+    }
+    .mobile-menu li>span {
+        font-size: 20px;
+        padding-left: 50px;
+        top: 15px;
+        position: relative;
+    }
+    .mobile-menu li>a>button {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        width: 150px;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+    .mobile-menu li {
+        display: none;
+    }
+    .mobile-hamburger {
+        display: block;
+    }
+    .header__body-img {
+        height: 70vh;
+    }
+    .header__bg-img {
+        width: 70vw;
+        top: 30vw;
+        left: 18vw;
+    }
+    .header__body-city {
+        font-size: 60px;
+        right: 36vw;
+        top: 39vw;
+    }
+    @keyframes header-city-loading {
+        0% {
+            top: 60vw;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            top: 56vw;
+            opacity: 1;
+        }
+    }
+    .tatoo__slider h1 {
+        font-size: 60px;
+    }
+    .tatoo__slider p {
+        width: 400px;
+        margin-left: 25vw;
+        top: 2vw;
+    }
+    .header__body-name {
+        font-size: 120px;
+        right: 22vw;
+        top: 37vw;
+    }
+    .slider__img {
+        width: 30vw;
+    }
+    .slider-image {
+        position: absolute;
+        width: 30vw;
+        left: 35.2vw;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider__bg {
+        width: 63vw;
+        position: relative;
+        left: 2vw;
+    }
+    .slider-button i {
+        font-size: 2vw;
+        padding-top: 1.6vw;
+    }
+    .slider-control {
+        left: 33.4vw;
+        top: 30vw;
+    }
+    .slider-control div {
+        margin-right: 23.6vw;
+    }
+    .about-tattoo {
+        display: flex;
+        margin-top: 5vw;
+        position: relative;
+        margin-left: 2vw;
+    }
+    .about-tattoo-img {
+        width: 50vw;
+    }
+    .about-tattoo-img {
+        width: 50vw;
+    }
+    .about-tattoo-body p {
+        width: 35vw;
+        margin-top: 5px;
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .about-tattoo-body p {
+        width: 41vw;
+    }
+    .about-tattoo-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        font-size: 14px;
+    }
+    .about-makeup-img {
+        width: 50vw;
+    }
+    .about-makeup {
+        padding-left: 0vw;
+    }
+    .about-makeup-body p {
+        width: 36vw;
+        margin-top: 5px;
+        line-height: 15px;
+        font-size: 14px;
+    }
+    .about-makeup-body button {
+        margin-top: 1vw;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .about-makeup h2 {
+        font-size: 26px;
+        width: 40vw;
+    }
+    .about-makeup img {
+        right: 9vw;
+    }
+    .about-makeup-body p {
+        width: 40vw;
+        margin-top: 5px;
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .main-about-content {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    .about-content-buttons button {
+        font-size: 1.5vw;
+    }
+    .main-services-buttons button {
+        font-size: 2vw;
+    }
+    .services-buttons-active {
+        background: white !important;
+        border: 1px solid #FF5C35 !important;
+        color: black !important;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+    .main-services-tattoo img {
+        width: 40vw;
+        height: 25vw;
+    }
+    .main-services-tattoo {
+        margin-left: 2vw;
+        margin-top: 5vw;
+        display: flex;
+    }
+    .services-text h2 {
+        font-size: 24px;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 370px;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 370px;
+        line-height: 17px;
+    }
+    .services-text button {
+        font-size: 2vw;
+    }
+    .contacts {
+        display: block;
+    }
+    .contacts iframe {
+        margin-top: 18vw;
+        margin-left: 5vw;
+        width: 700px;
+        height: 500px;
+    }
+    .contacts {
+        display: block;
+        height: auto;
+    }
+    .contacts-body_time {
+        padding-bottom: 6vw;
+    }
+    .contacts-body_title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .contacts-body {
+        margin-top: 7vw;
+    }
+    .contacts-text {
+        width: 49vw;
+    }
+    .contacts-body {
+        margin-top: 7vw;
+        max-height: 490px;
+    }
+    .footer-contacts {
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+    .contact-link {
+        font-size: 15px;
+    }
+    .contact-link i {
+        font-size: 25px;
+        top: 5px;
+    }
+}
+
+@media (max-width: 414px) {
+    .navbar__logotype {
+        font-size: 40px;
+        top: 5px;
+        left: 5vw;
+    }
+    .mobile-hamburger {
+        left: 53vw;
+        top: 2.8vw;
+    }
+    .mobile-menu li>span {
+        font-size: 16px;
+    }
+    .mobile-menu li {
+        margin-top: 4vw;
+    }
+    .mb-active {
+        height: 280px;
+    }
+    .navbar {
+        height: 85px;
+        max-height: 85px;
+    }
+    .header__body-img {
+        height: 60vh;
+    }
+    .mobile-menu li>a>button {
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    .header__body {
+        height: 91vh;
+    }
+    .mobile-menu {
+        margin-top: -19px;
+    }
+    .header__body {
+        padding-left: 35vw;
+        padding-top: 50.5vw;
+    }
+    .header__bg-img {
+        width: 90vw;
+        top: 80vw;
+        left: 6vw;
+    }
+    .header__body-name {
+        font-size: 90px;
+        right: 15vw;
+        top: 87vw;
+    }
+    .header__body-city {
+        font-size: 40px;
+        right: 36vw;
+        margin-top: 60vw;
+    }
+    .tatoo__slider h1 {
+        font-size: 40px;
+    }
+    .tatoo__slider p {
+        width: 350px;
+        margin-left: 5vw;
+    }
+    .slider__img {
+        width: 50vw;
+    }
+    .slider-image {
+        position: absolute;
+        width: 50vw;
+        left: 25vw;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider__bg {
+        width: 105vw;
+        position: relative;
+        left: 0vw;
+    }
+    .slider__bg {
+        width: 105vw;
+        position: relative;
+        left: 0vw;
+    }
+    .slider-button {
+        width: 30px;
+        height: 30px;
+    }
+    .slider-button i {
+        font-size: 3vw;
+    }
+    .slider-button i {
+        font-size: 3vw;
+        padding-top: 1.6vw;
+    }
+    .slider-control div {
+        margin-right: 42vw;
+        max-width: 800px;
+    }
+    .slider-control {
+        left: 22vw;
+        top: 50vw;
+    }
+    .slider-control {
+        left: 22vw;
+        top: 50vw;
+    }
+    .about-tattoo {
+        display: block;
+        margin-top: 5vw;
+        position: relative;
+        margin-left: 2vw;
+    }
+    .about-tattoo-img {
+        width: 90vw;
+    }
+    .about-tattoo-body {
+        padding-top: 3vw;
+        text-align: center;
+    }
+    .about-tattoo-body p {
+        width: 85vw;
+        left: 2vw;
+        position: relative;
+    }
+    .tatoo__slider {
+        max-height: 550px;
+    }
+    .about-tattoo-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: 14px;
+        right: 1vw;
+        position: relative;
+    }
+    /**/
+    .main-services-makeup {
+        display: block;
+        right: 7vw;
+        position: relative;
+    }
+    .main-services-makeup img {
+        width: 90vw;
+        height: 50%;
+    }
+    /**/
+    .about-makeup {
+        padding-left: 0vw;
+        display: block;
+    }
+    .about-makeup h2 {
+        text-align: center;
+        font-size: 26px;
+        left: 4vw;
+        width: 85vw;
+        position: relative;
+    }
+    .about-makeup-body p {
+        width: 80vw;
+        left: 7vw;
+        position: relative;
+    }
+    .footer-nav-link a {
+        font-size: 16px;
+    }
+    .about-makeup-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: 14px;
+        margin-left: 30.5vw;
+        margin-bottom: 6vw;
+        position: relative;
+    }
+    .main-services-tattoo img {
+        width: 97vw;
+        height: 60%;
+        position: relative;
+        left: 3vw;
+        margin-right: 10vw;
+    }
+    .footer-contacts {
+        margin-left: 0vw;
+        margin-top: 1vw;
+    }
+    .about-makeup-img {
+        width: 90vw;
+    }
+    .about-makeup img {
+        right: 0vw;
+    }
+    .main-about h1 {
+        font-size: 40px;
+    }
+    .about h1 {
+        font-size: 40px;
+    }
+    .main-about-content {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .main-about-text {
+        font-size: 15px;
+    }
+    .about-content-buttons button {
+        border: 1px solid white;
+        font-size: 2.5vw;
+    }
+    .services-text h2 {
+        font-size: 14px;
+    }
+    .main-services-tattoo {
+        margin-left: 2vw;
+        margin-top: 5vw;
+        display: block;
+    }
+    .main-services-tattoo img {
+        width: 90vw;
+        height: 60%;
+    }
+    .main-services-tattoo img {
+        width: 90vw;
+        height: 50%;
+        position: relative;
+        right: 2vw;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 350px;
+    }
+    .services-text button {
+        font-size: 3vw;
+        border-radius: 5px;
+        bottom: 0px;
+    }
+    .main-services-buttons button {
+        font-size: 3vw;
+        padding: 1vw 2.9vw 1vw 2.9vw;
+    }
+    .contacts iframe {
+        margin-top: 18vw;
+        margin-left: 5vw;
+        width: 370px;
+        height: 300px;
+    }
+    .contacts-body_title {
+        font-size: 25px;
+    }
+    .contacts-body_master {
+        font-size: 22px;
+        top: 10px;
+    }
+    .contacts-text {
+        width: 89vw;
+    }
+    .contacts-body_time {
+        font-size: 15px;
+    }
+    .contact-link {
+        font-size: 12px;
+    }
+    .contact-link i {
+        font-size: 20px;
+        top: 3px;
+    }
+    .contacts-body_title {
+        font-size: 25px;
+        position: relative;
+        right: 2vw;
+    }
+    .contacts-body {
+        max-height: 390px;
+    }
+    .footer-info {
+        width: 400px;
+        font-size: 3.5vw;
+    }
+    .footer-body {
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar__logotype {
+        font-size: 40px;
+        top: 5px;
+        left: 3vw;
+    }
+    .mobile-hamburger {
+        left: 48vw;
+        top: 2.8vw;
+    }
+    .mobile-menu li>span {
+        font-size: 16px;
+    }
+    .mobile-menu li {
+        margin-top: 4vw;
+    }
+    .mb-active {
+        height: 280px;
+    }
+    .navbar {
+        height: 85px;
+        max-height: 85px;
+    }
+    .header__body-img {
+        height: 60vh;
+    }
+    .mobile-menu li>a>button {
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    .header__body {
+        height: 91vh;
+    }
+    .header__body {
+        padding-left: 35vw;
+        padding-top: 61.5vw;
+    }
+    .header__bg-img {
+        width: 100vw;
+        top: 100vw;
+        left: 0vw;
+    }
+    .header__body-name {
+        font-size: 90px;
+        right: 15vw;
+        top: 107vw;
+    }
+    .header__body-city {
+        font-size: 40px;
+        right: 36vw;
+        margin-top: 80vw;
+    }
+    .tatoo__slider h1 {
+        font-size: 40px;
+    }
+    .tatoo__slider p {
+        width: 350px;
+        margin-left: 5vw;
+    }
+    .slider__img {
+        width: 50vw;
+    }
+    .slider-image {
+        position: absolute;
+        width: 50vw;
+        left: 25vw;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider__bg {
+        width: 105vw;
+        position: relative;
+        left: 0vw;
+    }
+    .slider__bg {
+        width: 105vw;
+        position: relative;
+        left: 0vw;
+    }
+    .slider-button {
+        width: 30px;
+        height: 30px;
+    }
+    .slider-button i {
+        font-size: 3vw;
+    }
+    .slider-button i {
+        font-size: 3vw;
+        padding-top: 1.6vw;
+    }
+    .slider-control div {
+        margin-right: 40vw;
+        max-width: 800px;
+    }
+    .slider-control {
+        left: 22vw;
+        top: 50vw;
+    }
+    .slider-control {
+        left: 22vw;
+        top: 50vw;
+    }
+    .about-tattoo {
+        display: block;
+        margin-top: 5vw;
+        position: relative;
+        margin-left: 2vw;
+    }
+    .about-tattoo-img {
+        width: 90vw;
+    }
+    .about-tattoo-body {
+        padding-top: 3vw;
+        text-align: center;
+    }
+    .about-tattoo-body p {
+        width: 85vw;
+        left: 2vw;
+        position: relative;
+    }
+    .tatoo__slider {
+        max-height: 550px;
+    }
+    .about-tattoo-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: 14px;
+        right: 1vw;
+        position: relative;
+    }
+    /**/
+    .main-services-makeup {
+        display: block;
+        right: 7vw;
+        position: relative;
+    }
+    .main-services-makeup img {
+        width: 90vw;
+        height: 50%;
+    }
+    /**/
+    .about-makeup {
+        padding-left: 0vw;
+        display: block;
+    }
+    .about-makeup h2 {
+        text-align: center;
+        font-size: 26px;
+        left: 4vw;
+        width: 85vw;
+        position: relative;
+    }
+    .about-makeup-body p {
+        width: 80vw;
+        left: 7vw;
+        position: relative;
+    }
+    .footer-nav-link a {
+        font-size: 16px;
+    }
+    .about-makeup-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: 14px;
+        margin-left: 26vw;
+        margin-bottom: 6vw;
+        position: relative;
+    }
+    .footer-contacts {
+        margin-left: 0vw;
+        margin-top: 1vw;
+    }
+    .about-makeup-img {
+        width: 90vw;
+    }
+    .about-makeup img {
+        right: 0vw;
+    }
+    .main-about h1 {
+        font-size: 40px;
+    }
+    .about h1 {
+        font-size: 40px;
+    }
+    .main-about-content {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .main-about-text {
+        font-size: 15px;
+    }
+    .about-content-buttons button {
+        border: 1px solid white;
+        font-size: 2.5vw;
+    }
+    .services-text h2 {
+        font-size: 14px;
+    }
+    .main-services-tattoo {
+        margin-left: 2vw;
+        margin-top: 5vw;
+        display: block;
+    }
+    .main-services-tattoo img {
+        width: 90vw;
+        height: 60%;
+    }
+    .main-services-tattoo img {
+        width: 90vw;
+        height: 50%;
+        position: relative;
+        right: 2vw;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 350px;
+    }
+    .services-text button {
+        font-size: 3vw;
+        border-radius: 5px;
+        bottom: 0px;
+    }
+    .main-services-buttons button {
+        font-size: 3vw;
+        padding: 1vw 2.9vw 1vw 2.9vw;
+    }
+    .contacts iframe {
+        margin-top: 18vw;
+        margin-left: 5vw;
+        width: 340px;
+        height: 300px;
+    }
+    .contacts-body_title {
+        font-size: 25px;
+    }
+    .contacts-body_master {
+        font-size: 22px;
+        top: 10px;
+    }
+    .contacts-text {
+        width: 89vw;
+    }
+    .contacts-body_time {
+        font-size: 15px;
+    }
+    .contact-link {
+        font-size: 12px;
+    }
+    .contact-link i {
+        font-size: 20px;
+        top: 3px;
+    }
+    .contacts-body_title {
+        font-size: 25px;
+        position: relative;
+        right: 2vw;
+    }
+    .contacts-body {
+        max-height: 390px;
+    }
+    .footer-info {
+        width: 400px;
+        font-size: 3.5vw;
+    }
+    .footer-body {
+        display: block;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar__logotype {
+        font-size: 40px;
+        top: 5px;
+        left: 3vw;
+    }
+    .mobile-hamburger {
+        left: 48vw;
+        top: 2.8vw;
+    }
+    .mobile-menu li>span {
+        font-size: 16px;
+    }
+    .mobile-menu li {
+        margin-top: 4vw;
+    }
+    .mb-active {
+        height: 280px;
+    }
+    .navbar {
+        height: 85px;
+        max-height: 85px;
+    }
+    .header__body-img {
+        height: 63vh;
+    }
+    .mobile-menu li>a>button {
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    .header__body {
+        height: 91vh;
+    }
+    .header__body {
+        padding-left: 35vw;
+        padding-top: 61.5vw;
+    }
+    .header__bg-img {
+        width: 100vw;
+        top: 110vw;
+        left: 2vw;
+    }
+    .header__body-name {
+        font-size: 90px;
+        right: 13vw;
+        top: 120vw;
+    }
+    .header__body-city {
+        font-size: 40px;
+        right: 36vw;
+        margin-top: 100vw;
+    }
+    .tatoo__slider h1 {
+        font-size: 40px;
+    }
+    .tatoo__slider p {
+        width: 340px;
+        margin-left: 5vw;
+    }
+    .slider__img {
+        width: 50vw;
+    }
+    .slider-image {
+        position: absolute;
+        width: 50vw;
+        left: 25vw;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider__bg {
+        width: 105vw;
+        position: relative;
+        left: 0vw;
+    }
+    .slider__bg {
+        width: 105vw;
+        position: relative;
+        left: 0vw;
+    }
+    .slider-button {
+        width: 30px;
+        height: 30px;
+    }
+    .slider-button i {
+        font-size: 3vw;
+    }
+    .slider-button i {
+        font-size: 3vw;
+        padding-top: 1.6vw;
+    }
+    .slider-control div {
+        margin-right: 40vw;
+        max-width: 800px;
+    }
+    .slider-control {
+        left: 22vw;
+        top: 50vw;
+    }
+    .slider-control {
+        left: 22vw;
+        top: 50vw;
+    }
+    .about-tattoo {
+        display: block;
+        margin-top: 5vw;
+        position: relative;
+        margin-left: 2vw;
+    }
+    .about-tattoo-img {
+        width: 90vw;
+    }
+    .about-tattoo-body {
+        padding-top: 3vw;
+        text-align: center;
+    }
+    .about-tattoo-body p {
+        width: 85vw;
+        left: 2vw;
+        position: relative;
+    }
+    .tatoo__slider {
+        max-height: 550px;
+    }
+    .about-tattoo-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: 18px;
+        right: 1vw;
+        position: relative;
+    }
+    .about-makeup {
+        padding-left: 0vw;
+        display: block;
+    }
+    .about-makeup h2 {
+        text-align: center;
+        font-size: 26px;
+        left: 4vw;
+        width: 85vw;
+        position: relative;
+    }
+    .about-makeup-body p {
+        width: 80vw;
+        left: 7vw;
+        position: relative;
+    }
+    .about-makeup-body button {
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 2vw 5vw 2vw 5vw;
+        font-size: 18px;
+        margin-left: 26vw;
+        margin-bottom: 6vw;
+        position: relative;
+    }
+    .about-makeup-img {
+        width: 90vw;
+    }
+    .about-makeup img {
+        right: 0vw;
+    }
+    .main-about h1 {
+        font-size: 40px;
+    }
+    .about h1 {
+        font-size: 40px;
+    }
+    .main-about-content {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .main-about-text {
+        font-size: 15px;
+    }
+    .about-content-buttons button {
+        border: 1px solid white;
+        font-size: 2.5vw;
+    }
+    .services-text h2 {
+        font-size: 14px;
+    }
+    .main-services-tattoo {
+        margin-left: 2vw;
+        margin-top: 5vw;
+        display: block;
+    }
+    .main-services-tattoo img {
+        width: 90vw;
+        height: 60%;
+    }
+    .main-services-tattoo img {
+        width: 90vw;
+        height: 50%;
+        position: relative;
+        right: 2vw;
+    }
+    .services-text {
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 350px;
+    }
+    .services-text button {
+        font-size: 3vw;
+        border-radius: 5px;
+        bottom: 0px;
+    }
+    .main-services-buttons button {
+        font-size: 3vw;
+        padding: 1vw 2.9vw 1vw 2.9vw;
+    }
+    .contacts iframe {
+        margin-top: 18vw;
+        margin-left: 4vw;
+        width: 335px;
+        height: 300px;
+    }
+    .contacts-body_title {
+        font-size: 25px;
+    }
+    .contacts-body_master {
+        font-size: 22px;
+        top: 10px;
+    }
+    .contacts-text {
+        width: 89vw;
+    }
+    .contacts-body_time {
+        font-size: 15px;
+    }
+    .contact-link {
+        font-size: 12px;
+    }
+    .contact-link i {
+        font-size: 20px;
+        top: 3px;
+    }
+    .contacts-body_title {
+        font-size: 25px;
+        position: relative;
+        right: 2vw;
+    }
+    .contacts-body {
+        max-height: 410px;
+    }
+    .footer-info {
+        width: 400px;
+        font-size: 3.5vw;
+    }
+    .footer-body {
+        display: block;
+    }
+    .main-services-makeup {
+        display: block;
+        right: 12vw;
+        position: relative;
+    }
+    .main-services-makeup img {
+        width: 90vw;
+        height: 50%;
+    }
+}
