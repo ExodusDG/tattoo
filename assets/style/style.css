@@ -31,6 +31,14 @@ button {
     background: #ff5c35
 }
 
+.navbar-active {
+    color: #ff5c35 !important;
+}
+
+.about-body {
+    display: flex;
+}
+
 .mobile-menu {
     display: none
 }
@@ -1000,6 +1008,388 @@ button {
     color: #ff5c35
 }
 
+
+/*TATTOO*/
+
+.header-poster {
+    background-image: url(https://i.ibb.co/K51wMJP/Component-8-6.webp);
+    max-height: 468px;
+    height: 394px;
+}
+
+.header-poster h1 {
+    font-size: 72px;
+    top: 140px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title-line {
+    position: absolute;
+    right: 55.5vw;
+    top: 21.5vh;
+}
+
+.line-1 {
+    /*Верхняя линия*/
+    width: 0px;
+    top: 21.2vh;
+    left: 41.5vw;
+    position: absolute;
+    z-index: 99;
+    height: 1px;
+    background: #ff5c35;
+    transition: 0.3s;
+}
+
+.line-2 {
+    /*Нижняя линия*/
+    width: 2px;
+    height: 0px;
+    left: 10px;
+    z-index: 99;
+    top: 20vh;
+    background: transparent;
+    left: 42.2vw;
+    position: absolute;
+    color: #ff5c35;
+    transition: 0.3s;
+}
+
+.header-poster:hover .line-1 {
+    width: 80px;
+}
+
+.header-poster:hover .line-2 {
+    height: 70px;
+    background: #ff5c35;
+}
+
+.line-1-m {
+    /*Верхняя линия*/
+    width: 0px;
+    top: 21.2vh;
+    left: 33vw;
+    position: absolute;
+    z-index: 99;
+    height: 1px;
+    background: #ff5c35;
+    transition: 0.3s;
+}
+
+.line-2-m {
+    /*Нижняя линия*/
+    width: 2px;
+    height: 0px;
+    left: 10px;
+    z-index: 99;
+    top: 20vh;
+    background: transparent;
+    left: 33.5vw;
+    position: absolute;
+    color: #ff5c35;
+    transition: 0.3s;
+}
+
+.header-poster:hover .line-1-m {
+    width: 80px;
+}
+
+.header-poster:hover .line-2-m {
+    height: 70px;
+    background: #ff5c35;
+}
+
+.tatoo-main {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.sorter-buttons {
+    text-align: center;
+}
+
+.sorter-buttons button {
+    margin-right: 2vw;
+    font-size: 16px;
+    width: 200px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: white;
+    height: 40px;
+}
+
+.about-tattoo-text {
+    max-width: 800px;
+}
+
+.tattoo-text-area h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    width: 800px;
+    color: black;
+}
+
+.tattoo-text-area p {
+    width: 600px;
+    line-height: 25px;
+    margin-top: 1vw;
+}
+
+.tattoo-text-area {
+    margin-top: 3vw;
+}
+
+.about-tattoo-img {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 10vw;
+    top: 13vw;
+}
+
+.contact-button {
+    margin-right: 2vw;
+    font-size: 16px;
+    margin-top: 4vw;
+    width: 230px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: white;
+    border: 1px solid transparent;
+    height: 45px;
+    transition: 0.4s;
+}
+
+.contact-button:hover {
+    border: 1px solid #0a0a0a;
+    color: #0a0a0a;
+    background: transparent;
+}
+
+.galleryContainer {
+    width: 101vw;
+}
+
+.galleryContainer img {
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    filter: brightness(0.3);
+}
+
+.gallery-img-active {
+    filter: brightness(1) !important;
+}
+
+.gallery-text h1 {
+    text-align: center;
+    margin-bottom: 6vw;
+    margin-right: 2vw;
+    font-size: 70px;
+}
+
+.gallery-left {
+    width: 50px;
+    cursor: pointer;
+    margin-right: 85vw;
+    height: 50px;
+    border-radius: 100px;
+    background: #0A0A0A;
+    transition: 0.3s;
+}
+
+.gallery-left:hover {
+    background: #ff5c35;
+}
+
+.gallery-right {
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 100px;
+    background: #0A0A0A;
+    transition: 0.3s;
+}
+
+.gallery-right:hover {
+    background: #ff5c35;
+}
+
+.gallery-controls {
+    display: flex;
+    top: 11vw;
+    left: 4vw;
+    position: relative;
+    z-index: 5;
+}
+
+.gallery-controls i {
+    color: white;
+    padding-left: 1vw;
+    padding-top: 0.8vw;
+    font-size: 1vw;
+}
+
+
+/*ABOUT*/
+
+.about-body-text {
+    margin-left: 10vw;
+    margin-top: 6vw;
+}
+
+.about-body-text h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.body-text {
+    margin-top: 1vw;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    width: 600px;
+}
+
+.about-body img {
+    position: relative;
+    left: 15vw;
+    height: 75vh;
+    top: 13vw;
+}
+
+.about-body-cards {
+    flex-wrap: wrap;
+    display: flex;
+    width: 800px;
+    margin-top: 3vw;
+}
+
+.about-body-card {
+    position: relative;
+    height: 10vw;
+    cursor: pointer;
+    width: 14vw;
+    margin-bottom: 4vw;
+    margin-right: 4vw;
+}
+
+.body-card-title {
+    font-weight: 600;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.body-card-desc {
+    width: 280px;
+    font-family: Roboto, sans-serif;
+    font: 400;
+    font-size: 16px;
+}
+
+.tatoo-master-hr {
+    height: 2px;
+    background: #ff5c35;
+    color: #ff5c35;
+    position: relative;
+    width: 100vw;
+    bottom: 1.7vw;
+}
+
+.about-line-1 {
+    /*Верхняя линия*/
+    width: 0px;
+    top: 0.3vw;
+    right: 0.5vw;
+    position: relative;
+    z-index: 99;
+    height: 1px;
+    background: #ff5c35;
+    transition: 0.3s;
+}
+
+.about-line-2 {
+    /*Нижняя линия*/
+    width: 1px;
+    height: 0px;
+    z-index: 99;
+    right: 0.2vw;
+    bottom: 0.2vw;
+    background: transparent;
+    position: relative;
+    color: #ff5c35;
+    transition: 0.3s;
+}
+
+.about-body-card:hover .about-line-1 {
+    width: 80px;
+}
+
+.about-body-card:hover .body-card-title {
+    color: #ff5c35;
+}
+
+.about-body-card:hover .about-line-2 {
+    height: 35px;
+    background: #ff5c35;
+}
+
+.how-contact {
+    margin-left: 10vw;
+    margin-top: 5vw;
+    width: 600px;
+}
+
+.how-to-contacts {
+    display: flex;
+    margin-left: 13vw;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+
+.how-to-contact {
+    border: 2px solid #ff5c35;
+    background: transparent;
+    width: 290px;
+    height: 90px;
+    border-radius: 12px;
+    display: flex;
+    margin-right: 4vw;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.how-to-contact p {
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 4vw;
+    top: 1.3vw;
+}
+
+.cont-icon {
+    color: white;
+    font-size: 2.3vw;
+    position: relative;
+    top: 1.2vw;
+    left: 2vw;
+    color: #ff5c35;
+    transition: 0.4s;
+}
+
+.how-to-contact:hover {
+    background: #ff5c35;
+    color: white;
+}
+
+.how-to-contact:hover .cont-icon {
+    color: white;
+}
+
 @media (max-width:1800px) {
     .footer-info {
         width: 400px
@@ -1070,6 +1460,18 @@ button {
         padding-top: 5vw;
         position: relative
     }
+    .line-1 {
+        top: 19.2vh;
+        left: 41ю7vw;
+    }
+    .line-2 {
+        top: 18vh;
+        left: 42.33vw;
+    }
+    .about-body img {
+        left: 13vw;
+        top: 6.7vw;
+    }
 }
 
 @media (max-width:1600px) {
@@ -1081,6 +1483,27 @@ button {
     }
     .header__body-name {
         font-size: 160px;
+    }
+    .about-body img {
+        left: 10vw;
+        top: 11.2vw;
+    }
+    .how-to-contacts {
+        margin-left: 10vw;
+    }
+    .cont-icon {
+        font-size: 2.7vw;
+    }
+    .gallery-controls i {
+        padding-left: 1.3vw;
+        padding-top: 1vw;
+    }
+    .line-1 {
+        top: 23vh;
+    }
+    .line-2 {
+        top: 22vh;
+        left: 42vw;
     }
 }
 
@@ -1223,6 +1646,36 @@ button {
     .footer-cont-links a>i {
         font-size: 30px
     }
+    .line-1 {
+        top: 25.5vh;
+        left: 40vw;
+    }
+    .about-body-card {
+        width: 15vw;
+        margin-right: 8vw;
+    }
+    .line-2 {
+        top: 24vh;
+        left: 41vw;
+    }
+    .about-body img {
+        height: 67vh;
+        top: 13.4vw;
+        left: 5vw;
+    }
+    .cont-icon {
+        top: 1.5vw;
+    }
+    .how-to-contact p {
+        top: 1.5vw;
+    }
+    .gallery-controls i {
+        padding-left: 1.4vw;
+        padding-top: 1.1vw;
+    }
+    .footer-cont-links {
+        width: 250px;
+    }
 }
 
 @media (max-width:1366px) {
@@ -1347,9 +1800,119 @@ button {
         margin-left: 30vw;
         margin-top: 1vw
     }
+    .about-body img {
+        height: 65vh;
+        top: 13.4vw;
+        left: 0vw;
+    }
+    .cont-icon {
+        top: 1.8vw;
+    }
+    .line-1 {
+        top: 25.2vh;
+        left: 40vw;
+    }
+    .line-2 {
+        top: 24vh;
+        left: 41vw;
+    }
+    .header-poster:hover .line-2 {
+        height: 50px;
+        background: #ff5c35;
+    }
+    .how-to-contact p {
+        top: 1.8vw;
+    }
+    .about-body img {
+        height: 65vh;
+        top: 19.7vw;
+        left: 0vw;
+    }
+    .about-body-card {
+        margin-bottom: 8vw;
+    }
+    .about-body img {
+        top: 29vw;
+    }
+    .cont-icon {
+        top: 2vw;
+    }
+    .how-to-contact p {
+        font-size: 24px;
+        top: 1.8vw;
+    }
+    .about-body-text h2 {
+        font-size: 22px;
+    }
+    .body-text {
+        width: 500px;
+        font-size: 1.4vw;
+    }
+    .body-card-title {
+        font-size: 20px;
+    }
+    .about-body-cards {
+        width: 600px;
+    }
+    .body-card-desc {
+        width: 230px;
+        font-size: 14px;
+    }
+    .about-body img {
+        height: 56vh;
+        top: 29vw;
+    }
+    .how-to-contact {
+        width: 320px;
+        height: 80px;
+    }
+    .cont-icon {
+        top: 2.3vw;
+    }
+    .how-to-contact p {
+        font-size: 20px;
+        top: 2.2vw;
+    }
+    .gallery-left {
+        width: 40px;
+        margin-right: 84vw;
+        height: 40px;
+    }
+    .gallery-right {
+        width: 40px;
+        height: 40px;
+    }
+    .gallery-controls {
+        top: 12vw;
+        left: 4vw;
+    }
+    .gallery-controls i {
+        padding-left: 1.5vw;
+        padding-top: 1.1vw;
+        font-size: 1.5vw;
+    }
+    .footer-nav-link a {
+        font-size: 16px;
+    }
+    .footer-info {
+        font-size: 14px;
+    }
+    .about-body-card:hover .about-line-1 {
+        width: 50px;
+    }
+    .about-line-1 {
+        right: 0.9vw;
+    }
+    .about-body-card:hover .about-line-2 {
+        height: 30px;
+        background: #ff5c35;
+    }
+    .about-line-2 {
+        right: 0.3vw;
+    }
 }
 
-@media (max-width:1240px) {
+@media (max-width:1280px) {
     .navbar {
         height: 65px
     }
@@ -1361,8 +1924,8 @@ button {
     }
     .navbar__links {
         font-size: 14px;
-        padding-left: 350px;
-        padding-top: 25px
+        padding-left: 300px;
+        padding-top: 25px;
     }
     .navbar__button {
         width: 105px;
@@ -1467,6 +2030,28 @@ button {
     .footer-contacts {
         margin-left: 30vw;
         margin-top: 1vw
+    }
+    .line-1 {
+        top: 24.2vh;
+        left: 39.5vw;
+    }
+    .line-2 {
+        top: 22.5vh;
+        left: 40.5vw;
+    }
+    .tatoo-master-hr {
+        top: 3vw;
+    }
+    .about-body img {
+        height: 76vh;
+        top: 29.8vw;
+    }
+    .cont-icon {
+        top: 1.5vw;
+    }
+    .how-to-contact p {
+        font-size: 20px;
+        top: 1.8vw;
     }
 }
 
@@ -1577,6 +2162,61 @@ button {
     }
     .footer-cont-links a>i {
         font-size: 20px
+    }
+    .line-1 {
+        top: 14.2vh;
+        left: 37.5vw;
+    }
+    .line-2 {
+        top: 13.5vh;
+        left: 38.5vw;
+    }
+    .about-body {
+        display: block;
+    }
+    .about-body-text h2 {
+        font-size: 30px;
+        margin-bottom: 3vw;
+    }
+    .body-text {
+        width: 800px;
+        font-size: 1.9vw;
+    }
+    .body-card-title {
+        font-size: 27px;
+    }
+    .about-body-card {
+        width: 15vw;
+        margin-right: 20vw;
+        margin-bottom: 12vw;
+    }
+    .body-card-desc {
+        width: 320px;
+        font-size: 18px;
+    }
+    .about-body-cards {
+        width: 800px;
+    }
+    .about-body img {
+        height: 56vh;
+        left: 23vw;
+        top: 4.8vw;
+    }
+    .how-to-contacts {
+        margin-left: 3vw;
+        width: 1000px;
+    }
+    .how-to-contact {
+        width: 420px;
+        height: 80px;
+    }
+    .cont-icon {
+        top: 2vw;
+        font-size: 3vw;
+    }
+    .how-to-contact p {
+        font-size: 20px;
+        top: 2.1vw;
     }
 }
 
@@ -1844,6 +2484,41 @@ button {
         font-size: 25px;
         top: 5px
     }
+    .body-text {
+        width: 600px;
+        font-size: 2.4vw;
+    }
+    .about-body-card {
+        width: 15vw;
+        margin-right: 29vw;
+        margin-bottom: 20vw;
+    }
+    .how-to-contacts {
+        margin-left: 13vw;
+        max-width: 600px;
+        flex-wrap: wrap;
+    }
+    .how-to-contact {
+        width: 260px;
+        height: 80px;
+        margin-bottom: 4vw;
+    }
+    .cont-icon {
+        top: 2vw;
+        left: 4vw;
+        font-size: 5vw;
+    }
+    .how-to-contact p {
+        font-size: 24px;
+        left: 8vw;
+        top: 2.2vw;
+    }
+    .line-1 {
+        display: none;
+    }
+    .line-2 {
+        display: none;
+    }
 }
 
 @media (max-width:600px) {
@@ -1866,8 +2541,8 @@ button {
         height: 320px
     }
     .navbar {
-        height: 85px;
-        max-height: 85px
+        height: 100px;
+        max-height: 100px;
     }
     .header__body-img {
         height: 80vh;
@@ -2135,6 +2810,96 @@ button {
     }
     .about-makeup-body p {
         text-align: left;
+    }
+    .body-text {
+        width: 500px;
+        font-size: 2.4vw;
+    }
+    .body-card-title {
+        font-size: 20px;
+    }
+    .body-card-desc {
+        width: 220px;
+        font-size: 14px;
+    }
+    .about-body-cards {
+        width: 700px;
+    }
+    .how-contact {
+        margin-top: 10vw;
+        width: 500px;
+    }
+    .how-to-contacts {
+        margin-left: 5vw;
+    }
+    .cont-icon {
+        top: 3vw;
+        font-size: 6vw;
+    }
+    .how-to-contact p {
+        top: 3vw;
+    }
+    .line-1 {
+        display: none;
+    }
+    .line-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-hamburger {
+        left: 60vw;
+        top: 1vw;
+    }
+    .navbar__logotype {
+        font-size: 40px;
+        top: 0px;
+    }
+    .main-about-text {
+        font-size: 20px;
+    }
+    .contacts iframe {
+        margin-top: 18vw;
+        width: 410px;
+    }
+    .line-1 {
+        display: none;
+    }
+    .line-2 {
+        display: none;
+    }
+    .body-text {
+        width: 400px;
+        font-size: 2.4vw;
+    }
+    .body-card-desc {
+        width: 200px;
+        font-size: 14px;
+    }
+    .about-body-cards {
+        width: 500px;
+    }
+    .about-body-card {
+        margin-bottom: 40vw;
+    }
+    .about-body img {
+        top: 6.8vw;
+    }
+    .how-to-contact {
+        width: 300px;
+    }
+    .how-to-contacts {
+        margin-left: 19vw;
+    }
+    .cont-icon {
+        top: 3.3vw;
+        left: 7vw;
+        font-size: 8vw;
+    }
+    .how-to-contact p {
+        top: 3.4vw;
+        left: 12vw;
     }
 }
 
@@ -2425,6 +3190,47 @@ button {
     .about-makeup-body p {
         text-align: left;
     }
+    .about-body-text h2 {
+        font-size: 25px;
+        margin-bottom: 3vw;
+    }
+    .body-text {
+        width: 350px;
+        font-size: 2.9vw;
+    }
+    .about-body-cards {
+        width: 300px;
+    }
+    .about-line-1 {
+        right: 1.9vw;
+    }
+    .about-line-2 {
+        bottom: 1vw;
+    }
+    .body-card-desc {
+        width: 250px;
+        font-size: 14px;
+    }
+    .about-body img {
+        left: 20vw;
+        top: 6.8vw;
+    }
+    .how-contact {
+        margin-top: 10vw;
+        width: 350px;
+    }
+    .cont-icon {
+        top: 3.3vw;
+        left: 7vw;
+        font-size: 10vw;
+    }
+    .how-to-contact p {
+        top: 4vw;
+        left: 16vw;
+    }
+    .how-to-contacts {
+        margin-left: 15vw;
+    }
 }
 
 @media (max-width:375px) {
@@ -2702,6 +3508,26 @@ button {
     .footer-body {
         display: block
     }
+    .body-text {
+        width: 320px;
+        font-size: 2.9vw;
+    }
+    .about-body img {
+        left: 10vw;
+        top: 8vw;
+    }
+    .cont-icon {
+        top: 5vw;
+        font-size: 10vw;
+    }
+    .how-to-contact p {
+        font-size: 22px;
+        left: 18vw;
+        top: 5.2vw;
+    }
+    .gallery-text h1 {
+        font-size: 50px;
+    }
 }
 
 @media (max-width:360px) {
@@ -2969,5 +3795,8 @@ button {
     .main-services-makeup img {
         width: 90vw;
         height: 50%
+    }
+    .how-to-contacts {
+        margin-left: 10vw;
     }
 }
