@@ -90,16 +90,28 @@ $('.s-right').click(function() {
     nextSlide();
 });
 
+function createSlider() {
+
+}
 // SERVICES BUTTONS
-$("#serv-makeup").click(function() {
-    $("#serv-tattoo").removeClass("services-buttons-active");
-    $("#serv-makeup").addClass("services-buttons-active");
-    $('.main-services-viewport').addClass('services-viewport-left')
-    $('.main-services-viewport').removeClass('services-viewport-right')
-});
-$("#serv-tattoo").click(function() {
-    $("#serv-makeup").removeClass("services-buttons-active");
-    $("#serv-tattoo").addClass("services-buttons-active");
-    $('.main-services-viewport').addClass('services-viewport-right')
-    $('.main-services-viewport').removeClass('services-viewport-left')
-});
+function servButton() {
+    $("#serv-makeup").click(function() {
+        $("#serv-tattoo").removeClass("services-buttons-active");
+        $("#serv-makeup").addClass("services-buttons-active");
+        $('.main-services-viewport').addClass('services-viewport-left')
+        $('.main-services-viewport').removeClass('services-viewport-right')
+    });
+    $("#serv-tattoo").click(function() {
+        $("#serv-makeup").removeClass("services-buttons-active");
+        $("#serv-tattoo").addClass("services-buttons-active");
+        $('.main-services-viewport').addClass('services-viewport-right')
+        $('.main-services-viewport').removeClass('services-viewport-left')
+    });
+}
+
+function createMap() {
+    $('.contacts').prepend(`<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4490.842928754301!2d37.53729527952037!3d55.751180446276!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1610882291256!5m2!1sru!2sua" width="800" height="600" frameborder="0" style="border:0;"
+    allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>`);
+}
+setTimeout(createMap, 1000);
+setTimeout(servButton, 1000);
