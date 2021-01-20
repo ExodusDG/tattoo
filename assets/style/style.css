@@ -73,7 +73,6 @@ button {
     font-size: 40px;
     position: relative;
     top: 5px;
-    left: 80px
 }
 
 .navbar__link {
@@ -1015,6 +1014,8 @@ button {
     background-image: url(https://i.ibb.co/K51wMJP/Component-8-6.webp);
     max-height: 468px;
     height: 394px;
+    display: flex;
+    justify-content: center;
 }
 
 .header-poster h1 {
@@ -1034,10 +1035,10 @@ button {
 .line-1 {
     /*Верхняя линия*/
     width: 0px;
-    top: 21.2vh;
-    left: 41.5vw;
     position: absolute;
     z-index: 99;
+    top: 10.7vw;
+    margin-left: -1vw;
     height: 1px;
     background: #ff5c35;
     transition: 0.3s;
@@ -1047,11 +1048,10 @@ button {
     /*Нижняя линия*/
     width: 2px;
     height: 0px;
-    left: 10px;
+    top: 10vw;
+    margin-left: -0.2vw;
     z-index: 99;
-    top: 20vh;
     background: transparent;
-    left: 42.2vw;
     position: absolute;
     color: #ff5c35;
     transition: 0.3s;
@@ -1062,41 +1062,6 @@ button {
 }
 
 .header-poster:hover .line-2 {
-    height: 70px;
-    background: #ff5c35;
-}
-
-.line-1-m {
-    /*Верхняя линия*/
-    width: 0px;
-    top: 21.2vh;
-    left: 33vw;
-    position: absolute;
-    z-index: 99;
-    height: 1px;
-    background: #ff5c35;
-    transition: 0.3s;
-}
-
-.line-2-m {
-    /*Нижняя линия*/
-    width: 2px;
-    height: 0px;
-    left: 10px;
-    z-index: 99;
-    top: 20vh;
-    background: transparent;
-    left: 33.5vw;
-    position: absolute;
-    color: #ff5c35;
-    transition: 0.3s;
-}
-
-.header-poster:hover .line-1-m {
-    width: 80px;
-}
-
-.header-poster:hover .line-2-m {
     height: 70px;
     background: #ff5c35;
 }
@@ -1144,10 +1109,7 @@ button {
 
 .about-tattoo-img {
     position: relative;
-    width: 600px;
     height: 400px;
-    left: 10vw;
-    top: 13vw;
 }
 
 .contact-button {
@@ -1390,6 +1352,14 @@ button {
     color: white;
 }
 
+.img-about-tattoo {
+    width: 40vw;
+    position: relative;
+    margin-left: 2vw;
+    margin-top: 10vw;
+    height: 25vw;
+}
+
 @media (max-width:1800px) {
     .footer-info {
         width: 400px
@@ -1460,17 +1430,20 @@ button {
         padding-top: 5vw;
         position: relative
     }
-    .line-1 {
-        top: 19.2vh;
-        left: 41ю7vw;
-    }
-    .line-2 {
-        top: 18vh;
-        left: 42.33vw;
-    }
     .about-body img {
         left: 13vw;
         top: 6.7vw;
+    }
+    .about-tattoo-img {
+        width: 35vw;
+    }
+    .about-tattoo-img {
+        width: 35vw;
+    }
+    .header-poster-lines {
+        top: 0.9vw;
+        right: 55.5vw;
+        position: absolute;
     }
 }
 
@@ -1498,16 +1471,33 @@ button {
         padding-left: 1.3vw;
         padding-top: 1vw;
     }
-    .line-1 {
-        top: 23vh;
+    .tattoo-text-area h1 {
+        font-size: 24px;
     }
-    .line-2 {
-        top: 22vh;
-        left: 42vw;
+    .about-tattoo-text {
+        max-width: 660px;
+    }
+    .header-poster-lines {
+        top: 2vw;
+        right: 56.5vw;
+        position: absolute;
+    }
+    .img-about-tattoo {
+        width: 40vw;
+        position: relative;
+        margin-left: 6vw;
+        margin-top: 15vw;
+        height: 25vw;
     }
 }
 
 @media (max-width:1440px) {
+    .img-about-tattoo {
+        width: 33vw;
+        margin-left: 2vw;
+        margin-top: 28vw;
+        height: 20vw;
+    }
     .footer-contacts {
         margin-left: 40vw
     }
@@ -1646,17 +1636,9 @@ button {
     .footer-cont-links a>i {
         font-size: 30px
     }
-    .line-1 {
-        top: 25.5vh;
-        left: 40vw;
-    }
     .about-body-card {
         width: 15vw;
         margin-right: 8vw;
-    }
-    .line-2 {
-        top: 24vh;
-        left: 41vw;
     }
     .about-body img {
         height: 67vh;
@@ -1675,6 +1657,18 @@ button {
     }
     .footer-cont-links {
         width: 250px;
+    }
+    .title-hr-tattoo {
+        left: 2vw;
+        text-align: center;
+    }
+    .header-poster-lines {
+        top: 3.2vw;
+        right: 57vw;
+        position: absolute;
+    }
+    .about-tattoo-img {
+        height: 300px;
     }
 }
 
@@ -1808,18 +1802,6 @@ button {
     .cont-icon {
         top: 1.8vw;
     }
-    .line-1 {
-        top: 25.2vh;
-        left: 40vw;
-    }
-    .line-2 {
-        top: 24vh;
-        left: 41vw;
-    }
-    .header-poster:hover .line-2 {
-        height: 50px;
-        background: #ff5c35;
-    }
     .how-to-contact p {
         top: 1.8vw;
     }
@@ -1897,18 +1879,22 @@ button {
     .footer-info {
         font-size: 14px;
     }
-    .about-body-card:hover .about-line-1 {
-        width: 50px;
+    .header-poster-lines {
+        top: 3.6vw;
+        right: 57vw;
+        position: absolute;
     }
-    .about-line-1 {
-        right: 0.9vw;
+    .tattoo-text-area h1 {
+        font-size: 22px;
     }
-    .about-body-card:hover .about-line-2 {
-        height: 30px;
-        background: #ff5c35;
+    .tattoo-line {
+        margin-right: 4vw;
+        position: absolute;
     }
-    .about-line-2 {
-        right: 0.3vw;
+    .about-tattoo-img {
+        left: 0vw;
+        width: 41vw;
+        height: 320px;
     }
 }
 
@@ -2031,14 +2017,6 @@ button {
         margin-left: 30vw;
         margin-top: 1vw
     }
-    .line-1 {
-        top: 24.2vh;
-        left: 39.5vw;
-    }
-    .line-2 {
-        top: 22.5vh;
-        left: 40.5vw;
-    }
     .tatoo-master-hr {
         top: 3vw;
     }
@@ -2053,9 +2031,51 @@ button {
         font-size: 20px;
         top: 1.8vw;
     }
+    .header-poster-lines {
+        top: 4.6vw;
+        right: 58vw;
+        position: absolute;
+    }
+    .tattoo-text-area p {
+        width: 500px;
+        line-height: 22px;
+        margin-top: 1vw;
+        font-size: 14px;
+    }
+    .tattoo-text-area h1 {
+        font-size: 20px;
+    }
+    .about-tattoo-img {
+        left: 1vw;
+    }
 }
 
 @media (max-width:1024px) {
+    .img-about-tattoo {
+        width: 80vw;
+        margin-left: 5vw;
+        margin-top: 8vw;
+        height: 43vw;
+    }
+    .sorter-buttons {
+        text-align: center;
+        left: 2vw;
+        position: relative;
+    }
+    .about-tattoo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-tattoo-img {
+        /* left: 9vw; */
+        width: 43vw;
+        height: 25vw;
+        /* top: 4vw; */
+        margin-bottom: 5vw;
+    }
+    .tattoo-text-area p {
+        width: 800px;
+    }
     .navbar__links {
         padding-left: 150px
     }
@@ -2071,22 +2091,23 @@ button {
         right: 5vw
     }
     .header__body-img {
-        right: 5vw
+        right: 10vw
     }
     .header__body-name {
-        font-size: 110px;
-        right: 34vw;
-        top: 29vw
+        font-size: 160px;
+        right: 24vw;
+        top: 45vw;
     }
     .header__body-city {
         font-size: 60px;
         right: 40vw;
-        top: 39vw
+        top: 59vw;
+        margin-top: 25vw;
     }
     .header__bg-img {
-        width: 55vw;
-        top: 25vw;
-        left: 25vw
+        width: 75vw;
+        top: 35vw;
+        left: 17vw;
     }
     .contacts {
         height: 90vh
@@ -2163,14 +2184,6 @@ button {
     .footer-cont-links a>i {
         font-size: 20px
     }
-    .line-1 {
-        top: 14.2vh;
-        left: 37.5vw;
-    }
-    .line-2 {
-        top: 13.5vh;
-        left: 38.5vw;
-    }
     .about-body {
         display: block;
     }
@@ -2218,9 +2231,37 @@ button {
         font-size: 20px;
         top: 2.1vw;
     }
+    .header-poster-lines {
+        top: 8.6vw;
+        right: 60vw;
+        position: absolute;
+    }
 }
 
 @media (max-width:768px) {
+    .sorter-buttons {
+        left: 11vw;
+        width: 600px;
+    }
+    .sorter-buttons button {
+        margin-bottom: 4vw;
+    }
+    .tattoo-text-area p {
+        width: 600px;
+    }
+    .about-tattoo {
+        display: flex;
+        margin-top: 5vw;
+        position: relative;
+        margin-left: 4vw;
+    }
+    .about-tattoo-img {
+        /* left: 9vw; */
+        width: 43vw;
+        height: 25vw;
+        /* top: 4vw; */
+        margin-bottom: 5vw;
+    }
     .navbar ul {
         margin-left: 0;
         margin-right: 0;
@@ -2341,18 +2382,6 @@ button {
     }
     .slider-control div {
         margin-right: 23.6vw
-    }
-    .about-tattoo {
-        display: flex;
-        margin-top: 5vw;
-        position: relative;
-        margin-left: 2vw
-    }
-    .about-tattoo-img {
-        width: 50vw
-    }
-    .about-tattoo-img {
-        width: 50vw
     }
     .about-tattoo-body p {
         width: 35vw;
@@ -2513,19 +2542,33 @@ button {
         left: 8vw;
         top: 2.2vw;
     }
-    .line-1 {
-        display: none;
-    }
-    .line-2 {
+    .header-poster-lines {
         display: none;
     }
 }
 
 @media (max-width:600px) {
+    .makeup-title {
+        font-size: 40px !important;
+    }
+    .tattoo-text-area p {
+        width: 500px;
+    }
+    .about-tattoo {
+        margin-left: 5vw;
+    }
+    .sorter-buttons {
+        left: 1vw;
+        width: 600px;
+    }
     .navbar__logotype {
         font-size: 50px;
         top: 2px;
         left: 7vw;
+    }
+    .about-tattoo-img {
+        width: 90vw;
+        height: 50vw;
     }
     .mobile-hamburger {
         left: 66vw;
@@ -2628,12 +2671,6 @@ button {
         z-index: 999;
         padding-top: 5vw;
         position: relative;
-    }
-    .about-tattoo {
-        display: block;
-        margin-top: 5vw;
-        position: relative;
-        margin-left: 2vw
     }
     .about-tattoo-img {
         width: 90vw
@@ -2848,6 +2885,23 @@ button {
 }
 
 @media (max-width: 480px) {
+    .makeup-title {
+        font-size: 35px !important;
+    }
+    .sorter-buttons {
+        left: -7vw;
+        width: 600px;
+    }
+    .sorter-buttons button {
+        margin-right: 10vw;
+    }
+    .tattoo-text-area p {
+        width: 400px;
+    }
+    .tattoo-text-area h1 {
+        font-size: 20px;
+        width: 450px;
+    }
     .mobile-hamburger {
         left: 60vw;
         top: 1vw;
@@ -2904,6 +2958,31 @@ button {
 }
 
 @media (max-width:414px) {
+    .makeup-title {
+        font-size: 35px !important;
+    }
+    .tattoo-text-area h1 {
+        font-size: 20px;
+        width: 400px;
+    }
+    .tattoo-text-area p {
+        width: 350px;
+    }
+    .about-tattoo {
+        margin-left: 5vw;
+    }
+    .sorter-buttons {
+        left: 7vw;
+        width: 400px;
+    }
+    .about-line-1 {
+        top: 0.5vw;
+        right: 2vw;
+    }
+    .about-line-2 {
+        right: 0.8vw;
+        bottom: 0.9vw;
+    }
     .navbar__logotype {
         font-size: 40px;
         top: 5px;
@@ -3005,12 +3084,6 @@ button {
     .slider-control {
         left: 22vw;
         top: 50vw
-    }
-    .about-tattoo {
-        display: block;
-        margin-top: 5vw;
-        position: relative;
-        margin-left: 2vw
     }
     .about-tattoo-img {
         width: 90vw
@@ -3201,18 +3274,18 @@ button {
     .about-body-cards {
         width: 300px;
     }
-    .about-line-1 {
-        right: 1.9vw;
+    .line-1 {
+        display: none;
     }
-    .about-line-2 {
-        bottom: 1vw;
+    .line-2 {
+        display: none;
     }
     .body-card-desc {
         width: 250px;
         font-size: 14px;
     }
     .about-body img {
-        left: 20vw;
+        left: 0vw;
         top: 6.8vw;
     }
     .how-contact {
@@ -3234,6 +3307,18 @@ button {
 }
 
 @media (max-width:375px) {
+    .sorter-buttons {
+        left: 2vw;
+        width: 400px;
+    }
+    .about-line-1 {
+        top: 0.5vw;
+        right: 2vw;
+    }
+    .about-line-2 {
+        right: 0.8vw;
+        bottom: 0.9vw;
+    }
     .navbar__logotype {
         font-size: 40px;
         top: 5px;
@@ -3513,7 +3598,7 @@ button {
         font-size: 2.9vw;
     }
     .about-body img {
-        left: 10vw;
+        left: 0vw;
         top: 8vw;
     }
     .cont-icon {
@@ -3528,9 +3613,25 @@ button {
     .gallery-text h1 {
         font-size: 50px;
     }
+    .how-to-contacts {
+        margin-left: 11vw;
+    }
+    .about-tattoo-img {
+        width: 95vw;
+    }
+    .makeup-title {
+        font-size: 30px !important;
+    }
 }
 
 @media (max-width:360px) {
+    .tattoo-text-area h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+    .about-tattoo-img {
+        width: 96vw;
+    }
     .navbar__logotype {
         font-size: 40px;
         top: 5px;
@@ -3637,9 +3738,6 @@ button {
         margin-top: 5vw;
         position: relative;
         margin-left: 2vw
-    }
-    .about-tattoo-img {
-        width: 90vw
     }
     .about-tattoo-body {
         padding-top: 3vw;
@@ -3798,5 +3896,8 @@ button {
     }
     .how-to-contacts {
         margin-left: 10vw;
+    }
+    .makeup-title {
+        font-size: 30px !important;
     }
 }

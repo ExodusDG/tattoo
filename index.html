@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/hamburger.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
@@ -19,11 +20,15 @@
     <section class="header">
         <nav class="navbar">
             <ul>
-                <li><span class="navbar__logotype">yadtatto</span></li>
+                <a href="index.html">
+                    <li>
+                        <span class="navbar__logotype">yadtatto</span>
+                    </li>
+                </a>
                 <!-- DESKTOP NAVBAR -->
                 <div class="navbar__links">
                     <li>
-                        <a href="index.html"> <span class="navbar__link">Главная</span></a>
+                        <a href="index.html"> <span class="navbar__link navbar-active">Главная</span></a>
                     </li>
                     <li>
                         <a href="tattoo.html"><span class="navbar__link">Татуировки</span></a>
@@ -32,7 +37,7 @@
                         <a href="makeup.html"><span class="navbar__link ">Перманентный макияж</span></a>
                     </li>
                     <li>
-                        <a href="about.html"><span class="navbar__link navbar-active">Обо мне</span></a>
+                        <a href="about.html"><span class="navbar__link">Обо мне</span></a>
                     </li>
                     <li>
                         <a href="services.html"><span class="navbar__link">Услуги</span></a>
@@ -52,12 +57,14 @@
             </ul>
         </nav>
         <div class="mobile-menu">
-            <li><span class="navbar__link">> Главная</span></li>
-            <li><span class="navbar__link">> Татуировки</span></li>
-            <li><span class="navbar__link">> Перманентный макияж</span></li>
-            <li><span class="navbar__link">> Обо мне</span></li>
-            <li><span class="navbar__link">> Услуги</span></li>
-            <li><a href="#contacts"><button class="navbar__button">Контакты</button></li></a>
+            <ul>
+                <li><span class="navbar__link">> Главная</span></li>
+                <li><span class="navbar__link">> Татуировки</span></li>
+                <li><span class="navbar__link">> Перманентный макияж</span></li>
+                <li><span class="navbar__link">> Обо мне</span></li>
+                <li><span class="navbar__link">> Услуги</span></li>
+                <li><a href="#contacts"><button class="navbar__button">Контакты</button></li></a>
+            </ul>
         </div>
 
         <div class="header__body">
