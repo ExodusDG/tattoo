@@ -35,8 +35,16 @@ button {
     color: #ff5c35!important
 }
 
+.mobile-menu-open {
+    display: block !important;
+}
+
 .about-body {
     display: flex
+}
+
+.mobile-menu ul>li>a>span {
+    font-size: 4vw;
 }
 
 .mobile-menu {
@@ -1139,7 +1147,8 @@ button {
 }
 
 .slick-center {
-    filter: brightness(1)!important
+    filter: brightness(1)!important;
+    transition: 0.4s;
 }
 
 .slick-track img {
@@ -2525,7 +2534,7 @@ button {
     }
     .mobile-menu li>span {
         font-size: 20px;
-        padding-left: 50px;
+        padding-left: 0px;
         top: 15px;
         position: relative
     }
@@ -2533,7 +2542,7 @@ button {
         font-size: 20px;
         margin-top: 30px;
         margin-bottom: 20px;
-        margin-left: 50px;
+        margin-left: 0px;
         width: 150px;
         border-radius: 10px;
         padding-bottom: 10px
@@ -3635,6 +3644,13 @@ button {
 }
 
 @media (max-width:375px) {
+    .tattoo-img-adaptive {
+        position: relative;
+        margin-left: -13vw;
+    }
+    .about-tattoo-body {
+        margin-left: -10vw;
+    }
     .services-text p {
         font-size: 12px;
         width: 330px;
@@ -3795,7 +3811,7 @@ button {
     }
     .about-tattoo-body p {
         width: 85vw;
-        left: 2vw;
+        left: 13vw;
         position: relative;
         text-align: left
     }
@@ -3832,7 +3848,7 @@ button {
     }
     .about-makeup-body p {
         width: 80vw;
-        left: 7vw;
+        left: 2vw;
         position: relative;
         text-align: left
     }
@@ -3844,7 +3860,7 @@ button {
         transition: .3s;
         padding: 2vw 5vw 2vw 5vw;
         font-size: 14px;
-        margin-left: 29vw;
+        margin-left: 27vw;
         margin-bottom: 6vw;
         position: relative
     }
