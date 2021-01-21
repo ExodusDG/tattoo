@@ -26,7 +26,7 @@ $('.mobile-hamburger').click(function() {
     $('.mobile-menu ul > li').toggleClass('mobile-menu-open')
 })
 var w = $('body').width()
-if (w < 768) {
+if (w < 1025) {
     $('.about-tatoo-filer > a').css('display', 'none');
     $('.about-makeup-filer > a').css('display', 'none');
 }
@@ -126,7 +126,19 @@ $('.galleryContainer').slick({
     arrows: true,
     adaptiveHeight: true,
     prevArrow: $('.gallery-left'),
-    nextArrow: $('.gallery-right')
+    nextArrow: $('.gallery-right'),
+    responsive: [{
+        breakpoint: 1025,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+        },
+        breakpoint: 415,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        }
+    }]
 });
 
 $('#sorter-t-1').click(function() {
