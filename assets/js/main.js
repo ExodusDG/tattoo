@@ -115,3 +115,33 @@ function createMap() {
 }
 setTimeout(createMap, 1000);
 setTimeout(servButton, 1000);
+
+$('.galleryContainer').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    arrows: true,
+    adaptiveHeight: true,
+    prevArrow: $('.gallery-left'),
+    nextArrow: $('.gallery-right')
+});
+
+$('#sorter-t-1').click(function() {
+    $('.tatoo-info > div:not(.about-tattoo)').fadeOut();
+    $('.about-tattoo').fadeIn()
+});
+$('#sorter-t-2').click(function() {
+    $('.tatoo-info > div:not(.before-tattoo)').fadeOut();
+    $('.before-tattoo').fadeIn()
+});
+$('#sorter-t-3').click(function() {
+    $('.tatoo-info > div:not(.after-tattoo)').fadeOut();
+    $('.after-tattoo').fadeIn()
+});
+$('#sorter-t-4').click(function() {
+    $('.tatoo-info > div:not(.done-tattoo)').fadeOut();
+    $('.done-tattoo').fadeIn()
+});
