@@ -23,7 +23,7 @@ $("a").on('click', function(event) {
 $('.mobile-hamburger').click(function() {
     $('#hamburger-id').toggleClass('is-active');
     $('.mobile-menu').toggleClass('mb-active');
-    $('.mobile-menu > li').css('display', 'block')
+    $('.mobile-menu ul > li').toggleClass('mobile-menu-open')
 })
 var w = $('body').width()
 if (w < 768) {
