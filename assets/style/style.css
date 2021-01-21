@@ -822,7 +822,7 @@ button {
 }
 
 .contacts {
-    background: url('/assets/img/contact-bg.jpg');
+    background: url('../img/contact-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
