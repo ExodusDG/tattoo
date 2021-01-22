@@ -3558,7 +3558,7 @@ button {
         margin-left: 13vw;
     }
     .about-body img {
-        left: 10vw;
+        left: 18vw;
         top: 6.8vw;
     }
     .services-list {
@@ -3632,7 +3632,8 @@ button {
         max-height: 85px
     }
     .header__body-img {
-        height: 80vh
+        height: 80vh;
+        right: 3vw;
     }
     .mobile-menu li>a>button {
         font-size: 16px;
@@ -3656,10 +3657,16 @@ button {
         right: 15vw;
         top: 40vh
     }
+    .about {
+        margin-top: 15vw;
+    }
+    .about-tattoo-img {
+        left: -5vw;
+    }
     .header__body-city {
         font-size: 40px;
         right: 36vw;
-        margin-top: 25vh
+        margin-top: 35vw;
     }
     .tatoo__slider h1 {
         font-size: 40px
@@ -3716,11 +3723,12 @@ button {
     }
     .about-tattoo-body {
         padding-top: 3vw;
-        text-align: center
+        text-align: left;
+        margin-left: 0vw
     }
     .about-tattoo-body p {
         width: 85vw;
-        left: 2vw;
+        left: 0vw;
         position: relative
     }
     .tatoo__slider {
@@ -3736,7 +3744,7 @@ button {
     }
     .main-services-makeup {
         display: block;
-        right: 7vw;
+        right: 9vw;
         position: relative
     }
     .main-services-makeup img {
@@ -3748,15 +3756,19 @@ button {
         display: block
     }
     .about-makeup h2 {
-        text-align: center;
+        text-align: left;
         font-size: 26px;
-        left: 4vw;
+        left: 0vw;
         width: 85vw;
         position: relative
     }
+    .main-services-viewport {
+        height: 105vw;
+        left: 25vw;
+    }
     .about-makeup-body p {
         width: 80vw;
-        left: 7vw;
+        left: 0vw;
         position: relative
     }
     .footer-nav-link a {
@@ -3767,15 +3779,22 @@ button {
         transition: .3s;
         padding: 2vw 5vw 2vw 5vw;
         font-size: 14px;
-        margin-left: 30.5vw;
+        margin-left: 0vw;
         margin-bottom: 6vw;
         position: relative
     }
     .main-services-tattoo img {
-        width: 97vw;
+        width: 90vw;
         height: 60%;
         position: relative;
         left: 3vw;
+        margin-right: 10vw
+    }
+    .main-services-makeup img {
+        width: 90vw;
+        height: 60%;
+        position: relative;
+        left: 0vw;
         margin-right: 10vw
     }
     .footer-contacts {
@@ -3812,16 +3831,6 @@ button {
         margin-left: 2vw;
         margin-top: 5vw;
         display: block
-    }
-    .main-services-tattoo img {
-        width: 90vw;
-        height: 60%
-    }
-    .main-services-tattoo img {
-        width: 90vw;
-        height: 50%;
-        position: relative;
-        right: 2vw
     }
     .services-text {
         text-align: left;
@@ -4022,20 +4031,20 @@ button {
     }
     .tattoo-img-adaptive {
         position: relative;
-        margin-left: -13vw;
+        margin-left: 0vw;
     }
     .tattoo-text-area p {
         width: 340px;
     }
     .about-tattoo-body {
-        margin-left: -10vw;
+        margin-left: 3vw;
     }
     .services-text p {
         font-size: 12px;
         width: 330px;
     }
     .main-services-tattoo {
-        margin-left: 30vw;
+        margin-left: 0vw;
         margin-top: 5vw;
         display: block;
     }
@@ -4052,11 +4061,11 @@ button {
     }
     .services-list {
         display: flex;
-        width: 345px;
+        width: 340px;
         margin-bottom: 4vw
     }
     .sorter-buttons {
-        left: 2vw;
+        left: 0vw;
         width: 400px
     }
     .main-services h1 {
@@ -4182,11 +4191,11 @@ button {
     }
     .about-tattoo-body {
         padding-top: 3vw;
-        text-align: center
+        text-align: left
     }
     .about-tattoo-body p {
         width: 85vw;
-        left: 13vw;
+        left: 0vw;
         position: relative;
         text-align: left
     }
@@ -4217,13 +4226,13 @@ button {
     .about-makeup h2 {
         text-align: center;
         font-size: 26px;
-        left: 4vw;
+        left: -2vw;
         width: 85vw;
         position: relative
     }
     .about-makeup-body p {
         width: 80vw;
-        left: 2vw;
+        left: 0vw;
         position: relative;
         text-align: left
     }
@@ -4235,7 +4244,7 @@ button {
         transition: .3s;
         padding: 2vw 5vw 2vw 5vw;
         font-size: 14px;
-        margin-left: 27vw;
+        margin-left: 0vw;
         margin-bottom: 6vw;
         position: relative
     }
@@ -4244,10 +4253,8 @@ button {
         margin-top: 1vw
     }
     .about-makeup-img {
-        width: 90vw
-    }
-    .about-makeup img {
-        right: 0
+        width: 94vw;
+        left: 1vw;
     }
     .main-about h1 {
         font-size: 40px
@@ -4387,15 +4394,15 @@ button {
         display: block;
         margin-top: 5vw;
         position: relative;
-        margin-left: 15vw;
+        margin-left: 0vw;
     }
     .main-services-tattoo {
-        margin-left: 25vw;
+        margin-left: 0vw;
         margin-top: 5vw;
         display: block;
     }
     .tattoo-text-area p {
-        width: 340px;
+        width: 330px;
     }
     .services-buttons button {
         width: 160px;
@@ -4456,8 +4463,12 @@ button {
     }
     .header__bg-img {
         width: 100vw;
-        top: 40vh;
-        left: 0
+        top: 70vw;
+        left: 1vw;
+    }
+    .main-tattoo-about {
+        position: relative;
+        left: 16vw;
     }
     .header__body-name {
         font-size: 90px;
@@ -4533,7 +4544,7 @@ button {
     }
     .tattoo-img-adaptive {
         position: relative;
-        margin-left: -40vw;
+        margin-left: -30vw;
     }
     .about-tattoo-img {
         width: 90vw;
@@ -4559,7 +4570,6 @@ button {
     }
     .about-makeup-body p {
         width: 80vw;
-        left: 7vw;
         position: relative
     }
     .about-makeup h2 {
@@ -4600,18 +4610,25 @@ button {
         border: 1px solid #fff;
         font-size: 2.5vw
     }
+    .sorter-buttons {
+        left: -3vw;
+        width: 400px;
+    }
     .services-text h2 {
         font-size: 14px
     }
-    .main-services-tattoo img {
-        width: 90vw;
-        height: 60%
+    .main-services-viewport {
+        height: 120vw;
     }
     .main-services-tattoo img {
         width: 90vw;
         height: 50%;
         position: relative;
         right: 2vw
+    }
+    .main-services-makeup img {
+        width: 90vw;
+        height: 50%;
     }
     .services-text {
         text-align: left;
@@ -4678,14 +4695,78 @@ button {
         right: 12vw;
         position: relative
     }
-    .main-services-makeup img {
-        width: 90vw;
-        height: 50%
-    }
     .how-to-contacts {
         margin-left: 10vw
     }
     .makeup-title {
         font-size: 30px!important
+    }
+    .about-tattoo-body {
+        margin-left: -10vw;
+    }
+    .header__body-img {
+        height: 140vw;
+        right: 8vw;
+        bottom: 15vw;
+    }
+}
+
+@media (max-width: 340px) {
+    .mobile-hamburger {
+        left: 43vw;
+    }
+    .header__body-img {
+        height: 155vw;
+    }
+    .header__body-name {
+        right: 11vw;
+        top: 80vw;
+    }
+    .header__body-city {
+        margin-top: 55vw;
+    }
+    .about-makeup h2 {
+        width: 91vw;
+    }
+    .tattoo-img-adaptive {
+        position: relative;
+        margin-left: -36vw;
+    }
+    .services-text p {
+        font-size: 12px;
+        width: 310px;
+    }
+    .services-text h2 {
+        font-size: 19px;
+    }
+    .contacts iframe {
+        width: 310px;
+        height: 300px;
+    }
+    .gallery-controls i {
+        padding-left: 4vw;
+        padding-top: 3.5vw;
+        font-size: 4vw;
+    }
+    .body-text {
+        width: 280px;
+        font-size: 4vw;
+    }
+    .about-body-cards {
+        width: 200px;
+    }
+    .about-body img {
+        left: 13vw;
+        top: 8vw;
+    }
+    .how-to-contacts {
+        margin-left: 6vw;
+    }
+    .services-list-desc {
+        width: 200px;
+        font-size: 12px;
+    }
+    .services-list {
+        width: 315px;
     }
 }
